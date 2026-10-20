@@ -13,6 +13,7 @@ Apps Script の画面（`…/exec`）は、ブラウザで複数の Google ア�
 | --- | --- |
 | `index.html` `viewer.css` `viewer.js` | 閲覧ページ本体（n02 リポジトリの `tournament-poc/tools/build.mjs` が生成） |
 | `config.js` | 閲覧者用 Web アプリの URL（`config.example.js` をコピーして作成） |
+| `admin/` | 運営画面（大会の作成・運営）。`admin/config.js` に運営用 Web アプリの URL |
 
 ## URL の指定
 
