@@ -14,10 +14,11 @@ Apps Script の画面（`…/exec`）は、ブラウザで複数の Google ア�
 | `index.html` `viewer.css` `viewer.js` | 閲覧ページ本体（n02 リポジトリの `tournament-poc/tools/build.mjs` が生成） |
 | `config.js` | 閲覧者用 Web アプリの URL（`config.example.js` をコピーして作成） |
 | `admin/` | 運営画面（大会の作成・運営）。`admin/config.js` に運営用 Web アプリの URL |
+| `events/` | ポータル「トーナメント・リーグ」（公開大会の一覧・検索・作成した大会。n02 のトップ画面からリンク）。設定は `config.js` と `admin/config.js` をそのまま読む |
 
 ## URL の指定
 
 - `?event=EVT-…` 特定の大会を表示（省略時は既定表示の大会）
 - `?interval=15` 自動更新の間隔（秒、15〜600。試験用）
 
-ソースと設計資料: https://github.com/chihirohashimotoac-coder/n02/tree/claude/bold-albattani-5vsk78/tournament-poc
+ソースと設計資料: https://github.com/chihirohashimotoac-coder/n02/tree/claude/gifted-bardeen-eistmm/tournament-poc
